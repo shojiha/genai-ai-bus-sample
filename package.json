@@ -1,0 +1,24 @@
+{
+  "name": "genai-ai-bus",
+  "version": "0.1.0",
+  "private": true,
+  "description": "源内 Web 向けバス経路検索 AI アプリ (ExApp)",
+  "scripts": {
+    "build": "tsc --noEmit",
+    "cdk": "cdk",
+    "synth": "cdk synth",
+    "deploy": "cdk deploy",
+    "test:py": "python3 -m unittest discover -s tests -v"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.9",
+    "aws-cdk": "^2.1118.0",
+    "ts-node": "^10.9.2",
+    "typescript": "~5.9.3"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "^2.248.0",
+    "constructs": "^10.3.0",
+    "source-map-support": "^0.5.21"
+  }
+}

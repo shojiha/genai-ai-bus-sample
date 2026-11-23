@@ -1,0 +1,10 @@
+node_modules/
+cdk.out/
+__pycache__/
+*.pyc
+data/
+*.zip
+*.json.gz
+.DS_Store
+parameter.local.ts
+docs/exapp-context.md
